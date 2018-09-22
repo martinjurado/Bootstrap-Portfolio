@@ -1,0 +1,318 @@
+/* HEADER */ 
+
+.jumbotron {
+
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0;
+    margin: 2% 12% 7px 12%;
+    background-image: url(assets/vertical-waves.png)
+}
+
+.mainheader {
+
+    color: #ff9999;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 40px;  
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navlinks {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px 0 0;
+    color: turquoise;
+    
+}
+
+.navlinks:hover {
+
+    color: lightskyblue;
+    
+}
+
+body {
+
+    background-image: url(assets/concrete_seamless.png);
+}
+
+/* ABOUT ME CONTENT */ 
+
+.aboutmeheader {
+
+    margin: 30px 20px 0 20px;
+    color: lightskyblue;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.aboutme {
+
+    
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0;
+    margin: 0 12% 0 12%;
+    
+}
+
+.paragraph {
+
+    margin: 30px 20px 30px 20px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    text-align: justify;
+    color: 	#696969;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+/* Pics/Icons */
+
+.marni:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.linkedin {
+
+    height: 50px;
+    width: 53px;
+    clear: both;
+    padding: 0 0 10px 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.linkedin:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.instagram {
+
+    height: 50px;
+    width: 40px;
+    padding: 0 0 10px 0;
+
+}
+
+.instagram:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.gmail {
+
+    height: 50px;
+    width: 40px;
+    padding: 0 0 10px 0;
+
+}
+
+.gmail:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+}
+
+.shanti {
+
+    z-index: -1;
+}
+
+.shanti:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);   
+}
+
+
+.jan:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);   
+}
+
+/* START OF PORTFOLIO.HTML  */
+
+.portfolio {
+
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0;
+    margin: 0 12% 0 12%;
+      
+}
+
+.portfolioheader {
+
+    margin: 30px 20px 0 20px;
+    color: lightskyblue;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.link2facebook {
+
+    
+    position: absolute;
+    right: 15%;
+    left: 13%;
+    top: 100%;
+    width: 21.5%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    word-spacing: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #4aaaa5
+
+}
+
+.link2instagram {
+
+    position: absolute;
+    right: 15%;
+    left: 38.8%;
+    top: 100%;
+    width: 21.5%;
+    font-size: 35px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    word-spacing: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #4aaaa5
+}
+
+/* START OF CONTACT.HTML  */
+
+.contactme {
+
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0;
+    margin: 0 12% 0 12%;
+    
+}
+
+.contactmeheader {
+
+    margin: 30px 20px 0 20px;
+    color: lightskyblue;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.emailheader {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:turquoise;
+}
+
+.submit {
+
+    border: none;
+    color: white;
+    background-color: #4aaaa5;
+    cursor: pointer;
+    padding: 10px 32px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Footer */
+
+footer {
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0; 
+    margin: 5% 12% 7px 12%;
+    color: #ff9999;
+    background-image: url(assets/vertical-waves.png);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Animation */
+
+#submit {
+
+    animation-name: submitbutton;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    position: relative;
+}
+
+@keyframes submitbutton {
+    
+    0% { background-color: #4aaaa5; left: 0px; top: 0px;}
+    25% {background-color: #ff9999; left: 0px; top:0;}
+}
+
+.contactmeheader {
+
+    animation-name: contactme;
+    animation-duration: 8s;
+    animation-iteration-count:1;
+    position: relative;
+}
+
+@keyframes contactme {
+    
+    0% { color: lightskyblue; left: 0px; top: 0px;}
+    25% {color: #ff9999; left: 0px; top:0;}
+    50% {color: lightskyblue; left: 0px; top: 0px;}
+
+}
+
+.portfolioheader {
+
+    animation-name: portfolioheader;
+    animation-duration: 6s;
+    animation-iteration-count:1;
+    position: relative;
+
+}
+
+@keyframes portfolioheader {
+
+    0% { color: lightskyblue; left: 0px; top: 0px;}
+    25% {color: #ff9999; left: 0px; top:0;}
+    50% {color: lightskyblue; left: 0px; top: 0px;}
+}
+
+.aboutmeheader {
+
+    animation-name: aboutme;
+    animation-duration: 6s;
+    animation-iteration-count:1;
+    position: relative;
+}
+
+@keyframes aboutme {
+
+    0% { color: lightskyblue; left: 0px; top: 0px;}
+    25% {color: #ff9999; left: 0px; top:0;}
+    50% {color: lightskyblue; left: 0px; top: 0px;}
+}
